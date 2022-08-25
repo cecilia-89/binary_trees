@@ -13,8 +13,8 @@ int main(void)
     root = binary_tree_node(NULL, 98);
     root->left = binary_tree_node(root, 12);
     root->right = binary_tree_node(root, 128);
-    root->left->right = binary_tree_node(root->left, 54);
     root->right->right = binary_tree_node(root->right, 402);
+    root->left->left = binary_tree_node(root->left, 10);
     root->right->left = binary_tree_node(root->right, 110);
     root->right->right->left = binary_tree_node(root->right->right, 200);
     root->right->right->right = binary_tree_node(root->right->right, 512);
